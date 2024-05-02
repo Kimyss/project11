@@ -14,12 +14,12 @@ public class Quiz4 {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
+		
 		String num = sc.nextLine();
-
 		int changeNum = Integer.parseInt(num);
 		int sum = 0;
 
-		for (int i = 1; i < 2; i++) {
+		for (int i = 1; i <= 2; i++) {
 			num = sc.nextLine();
 			sum = sum + changeNum;
 		}
